@@ -1,0 +1,27 @@
+# Compiled Java class files
+*.class
+
+# Compiled build directories
+bin/
+out/
+build/
+
+# Local SQLite databases
+*.db
+*.db-journal
+*.db-wal
+payroll.db
+
+# Generated text reports
+reports/
+
+# Libraries and JARs (downloaded locally to prevent pushing 13MB SQLite driver)
+lib/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
